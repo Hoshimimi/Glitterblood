@@ -1,0 +1,72 @@
+body {
+ background: #fff4d5;  
+}
+
+h1, h2, p {
+ color: #000284;
+ font-family: Monospace;
+}
+
+/* This is for the text boxesss :3c */
+.container {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.text-side {
+    flex: 1;
+}
+
+.image-side img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* infoboxes :) */
+
+table.infobox {
+  width: 100%;
+  max-width: 350px;
+  border-collapse: collapse;
+  background: #71541c;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.infobox th,
+.infobox td {
+  padding: 10px 14px;
+  vertical-align: top;
+}
+
+.infobox th {
+  background: #533015;
+  width: 30%;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid #222;
+}
+
+.infobox td {
+  background: #71541c;
+  border-bottom: 1px solid #222;
+}
+
+.infobox tr:last-child th,
+.infobox tr:last-child td {
+  border-bottom: none;
+}
+
+.infobox-title {
+  text-align: center;
+  font-size: 1.3em;
+  background: #000;
+  padding: 12px;
+  font-weight: 700;
+  border-bottom: 2px solid #222;
+}
