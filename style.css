@@ -81,7 +81,7 @@ a {
 }
 
 .toc {
- width: auto;
+ width: fit-content;
  background: #e8c91b;
  text-align: left;
  padding: 10px;
