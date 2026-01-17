@@ -79,3 +79,10 @@ a {
  color: black;
  font-family: Monospace;
 }
+
+.toc {
+ width: auto;
+ background: #e8c91b;
+ text-align: left;
+ padding: 10px;
+}
