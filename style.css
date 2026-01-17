@@ -74,3 +74,8 @@ table.infobox {
 p {
  font-size: 15px;
 }
+
+a {
+ color: black;
+ font-family: Monospace;
+}
